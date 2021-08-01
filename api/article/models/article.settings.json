@@ -36,7 +36,7 @@
       "model": "category"
     },
     "author": {
-      "plugin": "admin",
+      "plugin": "users-permissions",
       "model": "user"
     },
     "cover": {
@@ -48,6 +48,15 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "is_featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "excerpt": {
+      "type": "text",
+      "required": true,
+      "maxLength": 160
     }
   }
 }

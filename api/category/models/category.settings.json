@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "category": {
+    "name": {
       "type": "string"
     },
     "articles": {
@@ -20,8 +20,7 @@
       "collection": "article"
     },
     "slug": {
-      "type": "uid",
-      "targetField": "category"
+      "type": "uid"
     }
   }
 }

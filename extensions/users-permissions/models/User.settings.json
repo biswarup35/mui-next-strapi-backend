@@ -59,11 +59,11 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "bio": {
+    "introduction": {
       "type": "text",
-      "required": false
+      "required": true
     },
-    "profile_picture": {
+    "cover": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -72,6 +72,16 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "socials.social-media-links",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
     }
   }
 }

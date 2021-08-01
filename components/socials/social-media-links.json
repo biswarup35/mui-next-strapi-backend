@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_socials_social_media_links",
+  "info": {
+    "name": "Social Media Links",
+    "icon": "laugh-beam"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,9 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "tags",
+  "kind": "singleType",
+  "collectionName": "contacts",
   "info": {
-    "name": "Tag",
-    "description": ""
+    "name": "contact"
   },
   "options": {
     "increments": true,
@@ -12,13 +11,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "articles": {
-      "via": "tags",
-      "collection": "article"
+    "description": {
+      "type": "string",
+      "required": true
     }
   }
 }
